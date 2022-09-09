@@ -4,6 +4,12 @@
   <remote  name="github"
            fetch="https://github.com" />
   
+  <remote  name="darklightnest"
+           fetch="https://github.com/darklightnest" />
+  
+   <remote  name="darknius20"
+           fetch="https://github.com/darknius20" />
+  
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
   
@@ -155,7 +161,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
-  <project path="frameworks/base" name="frameworks_base" remote="spark" />
+  <project path="frameworks/base" name="frameworks_base-spark" remote="darklightnest" revision="omni" clone-depth="1" />
   <project path="frameworks/native" name="frameworks_native" remote="spark" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="spark" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="spark" />
@@ -182,7 +188,7 @@
   </project>
   <project path="manifest" name="manifest" remote="spark" />
   <project path="platform_testing" name="platform_testing" remote="spark" />
-  <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
+  <project path="vendor/spark" name="platform_vendor_spark" remote="darklightnest" revision="fire" clone-depth="1" />
   <project path="vendor/opstuff" name="vendor_opstuff" remote="spark" />  
   <project path="vendor/gms" name="vendor_gms" groups="vendor" clone-depth="1" remote="spark-gitlab" />
 
@@ -197,8 +203,9 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="spark" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="darklightnest" revision="11.0" clone-depth="1" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="spark" />
-  <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
+  <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="darklightnest" revision="fire" clone-depth="1" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="spark" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="spark" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
@@ -256,5 +263,10 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="spark" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="spark" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="spark" />
+ 
+  <!-- Trees -->
+  <project path="device/xiaomi/juice" name="darknius20/devise" remote="github" revision="spark11" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="darknius20/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
+  <project path="kernel/xiaomi/juice" name="darknius20/jasjus" remote="github" revision="nimf" clone-depth="1" />
 
 </manifest>
