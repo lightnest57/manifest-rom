@@ -161,7 +161,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
-  <project path="frameworks/base" name="frameworks_base-spark" remote="darklightnest" revision="omni" clone-depth="1" />
+  <project path="frameworks/base" name="darklightnest/frameworks_base-spark" remote="github" revision="omni" clone-depth="1" />
   <project path="frameworks/native" name="frameworks_native" remote="spark" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="spark" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="spark" />
@@ -188,7 +188,7 @@
   </project>
   <project path="manifest" name="manifest" remote="spark" />
   <project path="platform_testing" name="platform_testing" remote="spark" />
-  <project path="vendor/spark" name="platform_vendor_spark" remote="darklightnest" revision="fire" clone-depth="1" />
+  <project path="vendor/spark" name="darklightnest/platform_vendor_spark" remote="github" revision="fire" clone-depth="1" />
   <project path="vendor/opstuff" name="vendor_opstuff" remote="spark" />  
   <project path="vendor/gms" name="vendor_gms" groups="vendor" clone-depth="1" remote="spark-gitlab" />
 
@@ -203,9 +203,9 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="spark" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="darklightnest" revision="11.0" clone-depth="1" />
+  <project path="packages/apps/OmniSwitch" name="darklightnest/packages_apps_OmniSwitch" remote="github" revision="11.0" clone-depth="1" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="spark" />
-  <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="darklightnest" revision="fire" clone-depth="1" />
+  <project path="packages/apps/Fireworks" name="darklightnest/packages_apps_Fireworks" remote="github" revision="fire" clone-depth="1" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="spark" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="spark" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
