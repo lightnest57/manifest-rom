@@ -267,6 +267,6 @@
   <!-- Trees -->
   <project path="device/xiaomi/juice" name="darknius20/devise" remote="github" revision="spark11" clone-depth="1" />
   <project path="vendor/xiaomi/juice" name="darknius20/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
-  <project path="kernel/xiaomi/juice" name="darknius20/jasjus" remote="github" revision="nimf" clone-depth="1" />
+  <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
 
 </manifest>
