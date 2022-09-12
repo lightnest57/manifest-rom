@@ -21,7 +21,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="fluid" />
 
   <!-- Build -->
-  <project path="build/make" name="build" groups="pdk" remote="fluid" >
+  <project path="build/make" name="darklightnest/build-fluid" remote="github" revision="fluid-11" clone-depth="1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -53,7 +53,7 @@
   <project path="fluid/Project-Fluid.github.io" name="Project-Fluid.github.io" revision="master" remote="fluid" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
+  <project path="frameworks/base" name="darklightnest/frameworks_base-fluid" remote="github" revision="fluid-11" clone-depth="1" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="fluid" />
   <project path="frameworks/av" name="frameworks_av" remote="fluid" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="fluid" />
@@ -71,7 +71,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="fluid" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="fluid" />
   <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="fluid" />
-  <project path="packages/apps/FluidCustomisation" name="packages_apps_FluidCustomisation" remote="fluid">
+  <project path="packages/apps/FluidCustomisation" name="darklightnest/packages_apps_FluidCustomisation" remote="github" revision="fluid-11" clone-depth="1" >
     <linkfile src="res" dest="packages/apps/Settings/res-customisation" />
     <linkfile src="src" dest="packages/apps/Settings/src_customisation" />
   </project>
@@ -90,6 +90,6 @@
 
   <!-- Vendor -->
   <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />
-  <project path="vendor/fluid" name="vendor_fluid" remote="fluid" />
+  <project path="vendor/fluid" name="darklightnest/vendor_fluid" remote="github" revision="fluid-11" clone-depth="1" />
   <project path="vendor/gapps" name="vendor_gapps" remote="fluid-gitlab" clone-depth="1" />
 </manifest>
