@@ -64,6 +64,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="fluid" />
 
   <!-- Packages -->
+  <project path="packages/apps/OmniSwitch" name="darklightnest/packages_apps_OmniSwitch" remote="github" revision="11.0" clone-depth="1" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="fluid" />
   <project path="packages/apps/FluidLauncher" name="packages_apps_FluidLauncher" remote="fluid" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fluid" />
