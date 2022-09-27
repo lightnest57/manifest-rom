@@ -14,7 +14,7 @@ Credits
 To begin with you first have to initialize the repo:
 
 ```bash
-repo init -u https://github.com/Project-Fluid/manifest.git -b fluid-11
+repo init -u https://github.com/Night-Raids-Reborn/manifest-rom.git -b fluid-11
 ```
 
 Then sync it up:
