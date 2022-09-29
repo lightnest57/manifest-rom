@@ -15,7 +15,7 @@
           revision="11.0" />
 
   <remote name="blaster"
-          fetch="https://github.com/PixelBlaster-OS/"
+          fetch="https://github.com/PixelBlaster-OS-11/"
           revision="refs/heads/eleven" />
 
   <remote name="blaster-gitlab"
