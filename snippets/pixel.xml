@@ -119,7 +119,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="blaster" />
-  <project path="frameworks/base" name="frameworks_base" remote="blaster" />
+  <project path="frameworks/base" name="darknius09/pb-fwb" remote="github" revision="eleven" clone-depth="1" />
   <project path="frameworks/native" name="frameworks_native" remote="blaster" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
@@ -192,7 +192,7 @@
   <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="blaster" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaster" />
+  <project path="packages/apps/Settings" name="darknius09/packages_apps_Settings-pb" remote="github" revision="eleven" clone-depth="1" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="pixel" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
