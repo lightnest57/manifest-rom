@@ -181,7 +181,7 @@
 
   <!-- vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="kscope" />
-  <project path="vendor/gms" name="darknius09/android_vendor_gms" remote="gitlab" clone-depth="1" revision="12.1" />
+  <project path="vendor/gms" name="darknius09/android_vendor_gms" remote="gitlab" clone-depth="1" revision="kscope121" />
   <project path="vendor/kscope" name="android_vendor_kscope" remote="kscope" />
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="kscope" />
   <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="kscope" />
