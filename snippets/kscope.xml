@@ -158,6 +158,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="kscope" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="kscope" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="kscope" />
+  <project path="packages/modules/Connectivity" name="darknius09/packages_modules_Connectivity" remote="github" revision="twelve" clone-depth="1" />
 
   <!-- prebuilts -->
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="kscope" clone-depth="1" />
