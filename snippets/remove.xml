@@ -109,6 +109,7 @@
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/modules/Connectivity" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
