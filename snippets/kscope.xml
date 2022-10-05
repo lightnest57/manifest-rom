@@ -72,7 +72,7 @@
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="kscope" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="kscope" />
+  <project path="frameworks/base" name="darknius09/kscope_frameworks_base" remote="github" revision="sunflowerleaf" clone-depth="1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="kscope" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="kscope" />
   <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="kscope" />
@@ -148,7 +148,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="kscope" />
   <project path="packages/apps/ParallelSpacePrebuilt" name="android_packages_apps_ParallelSpacePrebuilt" remote="kscope-gitlab" />
   <project path="packages/apps/Raindrop" name="android_packages_apps_Raindrop" remote="kscope" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="kscope" />
+  <project path="packages/apps/Settings" name="darknius09/kscope_packages_apps_Setting" remote="github" revision="sunflowerleaf" clone-depth="1" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="kscope" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="kscope" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="kscope" />
