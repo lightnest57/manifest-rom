@@ -12,7 +12,7 @@
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" remote="lineage" clone-depth="1" />
   <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" clone-depth="1" />
   <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" remote="lineage" clone-depth="1" />
-  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" remote="lineage" revision="master" clone-depth="1" clone-depth="1" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" remote="lineage" revision="master" clone-depth="1" />
   <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" remote="lineage" clone-depth="1" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" clone-depth="1" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" clone-depth="1" />
