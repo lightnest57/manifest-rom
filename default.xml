@@ -153,7 +153,7 @@
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" clone-depth="1" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" clone-depth="1" />
   <project path="external/drrickorang" name="platform/external/drrickorang" groups="pdk" clone-depth="1" />
-  <project path="external/dtc" name="platform/external/dtc" groups="pdk"clone-depth="1" />
+  <project path="external/dtc" name="platform/external/dtc" groups="pdk" clone-depth="1" />
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" clone-depth="1" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" clone-depth="1" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" clone-depth="1" />
@@ -767,7 +767,7 @@
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" clone-depth="1" />
   <project path="system/security" name="platform/system/security" groups="pdk" clone-depth="1" />
   <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" clone-depth="1" />
-  <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"clone-depth="1" />
+  <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk" clone-depth="1" />
   <project path="system/teeui" name="platform/system/teeui" groups="pdk" clone-depth="1" />
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" clone-depth="1" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" clone-depth="1" />
