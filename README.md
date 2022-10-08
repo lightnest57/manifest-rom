@@ -12,7 +12,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b r11.1
+    $ repo init -u https://github.com/Night-Raids-Reborn/manifest-rom.git -b aicp-11
 
 
 sync repo :

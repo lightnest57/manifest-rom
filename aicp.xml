@@ -36,32 +36,32 @@
   <include name="lineage.xml" />
 
     <!-- AICP additions -->
-  <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
-  <project path="external/pulse" name="AICP/external_pulse" remote="aicp" />
-  <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
-  <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
-  <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
-  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
-  <project path="packages/apps/ExactCalculator" name="AICP/packages_apps_ExactCalculator" groups="apps_nfc,pdk-fs" remote="aicp" />
-  <project path="packages/apps/GamingMode" name="AICP/packages_apps_GamingMode" remote="aicp" />
-  <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" />
-  <project path="packages/apps/OmniStyle" name="AICP/packages_apps_OmniStyle" remote="aicp" />
-  <project path="packages/apps/PartsBin" name="AICP/packages_apps_PartsBin" remote="aicp" />
-  <project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" />
-  <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
-  <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
-  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
-  <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" />
-  <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" />
-  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
-  <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
+  <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" clone-depth="1" />
+  <project path="external/pulse" name="AICP/external_pulse" remote="aicp" clone-depth="1" />
+  <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" clone-depth="1" />
+  <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" clone-depth="1" />
+  <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/AicpExtras" name="Night-Raids-Reborn/packages_apps_AicpExtras" remote="github" revision="r11.1" clone-depth="1" />
+  <project path="packages/apps/ExactCalculator" name="AICP/packages_apps_ExactCalculator" groups="apps_nfc,pdk-fs" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/GamingMode" name="AICP/packages_apps_GamingMode" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/OmniStyle" name="AICP/packages_apps_OmniStyle" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/PartsBin" name="AICP/packages_apps_PartsBin" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" clone-depth="1" />
+  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" clone-depth="1" />
+  <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" clone-depth="1" />
+  <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" clone-depth="1" />
+  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" clone-depth="1" />
+  <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="master" clone-depth="1" />
-  <project path="system/update_engine" name="AICP/system_update_engine" remote="aicp" />
-  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <project path="system/update_engine" name="AICP/system_update_engine" remote="aicp" clone-depth="1" />
+  <project path="vendor/aicp" name="Night-Raids-Reborn/vendor_aicp" remote="github" revision="r11.1" clone-depth="1" />
 
  <!-- AICP AOSP Repos -->
-  <project path="bionic" name="AICP/bionic" remote="aicp" />
-  <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" >
+  <project path="bionic" name="AICP/bionic" remote="aicp" clone-depth="1" />
+  <project path="build/make" name="Night-Raids-Reborn/aicp-build" remote="github" revision="r11.1" clone-depth="1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -70,33 +70,38 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="AICP/build_soong" groups="pdk,tradefed" remote="aicp" >
+  <project path="build/soong" name="AICP/build_soong" groups="pdk,tradefed" remote="aicp" clone-depth="1" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
-  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
-  <project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" remote="aicp"/>
-  <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" />
-  <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" remote="aicp" />
-  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
-  <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
-  <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/PermissionController" name="AICP/packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" />
-  <project path="packages/apps/SetupWizard" name="AICP/packages_apps_SetupWizard" remote="aicp" />
-  <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" remote="aicp" />
-  <project path="packages/apps/WallpaperPicker2" name="AICP/packages_apps_WallpaperPicker2" groups="pdk-fs" remote="aicp" />
-  <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
-  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
-  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
-  <project path="system/netd" name="AICP/system_netd" groups="pdk" remote="aicp" />
-  <project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
+  <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" clone-depth="1" />
+  <project path="frameworks/base" name="Night-Raids-Reborn/aicp-fwb" remote="github" revision="r11.1" clone-depth="1" />
+  <project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" remote="aicp" clone-depth="1" />
+  <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="pdk-fs" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/PermissionController" name="AICP/packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/SetupWizard" name="AICP/packages_apps_SetupWizard" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" remote="aicp" clone-depth="1" />
+  <project path="packages/apps/WallpaperPicker2" name="AICP/packages_apps_WallpaperPicker2" groups="pdk-fs" remote="aicp" clone-depth="1" />
+  <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aicp" clone-depth="1" />
+  <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" clone-depth="1" />
+  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" clone-depth="1" />
+  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" clone-depth="1" />
+  <project path="system/netd" name="AICP/system_netd" groups="pdk" remote="aicp" clone-depth="1" />
+  <project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" clone-depth="1" />
+
+  <!-- Trees -->
+  <project path="device/xiaomi/juice" name="Night-Raids-Reborn/devise" remote="github" revision="aicp11" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="Night-Raids-Reborn/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
+  <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
 
     <!-- OMNI additions -->
-  <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" />
+  <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" clone-depth="1" />
 
   <!-- Other additions -->
-  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" clone-depth="1" />
 </manifest>
