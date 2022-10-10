@@ -59,6 +59,7 @@
 
   <!-- external -->
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/gptfdisk" />
@@ -119,6 +120,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
