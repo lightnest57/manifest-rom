@@ -37,7 +37,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="darknius09/kscope_build_soong" remote="github" revision="sunflowerleaf" clone-depth="1" >
+  <project path="build/soong" name="Night-Raids-Reborn/kscope_build_soong" remote="github" revision="sunflowerleaf" clone-depth="1" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -46,7 +46,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="kscope" />
 
   <!-- device -->
-  <project path="device/kscope/sepolicy" name="darknius09/android_device_kscope_sepolicy" remote="github" revision="sunflowerleaf" clone-depth="1" />
+  <project path="device/kscope/sepolicy" name="Night-Raids-Reborn/android_device_kscope_sepolicy" remote="github" revision="sunflowerleaf" clone-depth="1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="kscope" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="kscope" revision="sunflowerleaf-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="kscope" />
@@ -72,7 +72,7 @@
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="kscope" />
-  <project path="frameworks/base" name="darknius09/kscope_frameworks_base" remote="github" revision="sunflowerleaf" clone-depth="1" />
+  <project path="frameworks/base" name="Night-Raids-Reborn/kscope_frameworks_base" remote="github" revision="sunflowerleaf" clone-depth="1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="kscope" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="kscope" />
   <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="kscope" />
@@ -148,7 +148,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="kscope" />
   <project path="packages/apps/ParallelSpacePrebuilt" name="android_packages_apps_ParallelSpacePrebuilt" remote="kscope-gitlab" />
   <project path="packages/apps/Raindrop" name="android_packages_apps_Raindrop" remote="kscope" />
-  <project path="packages/apps/Settings" name="darknius09/kscope_packages_apps_Settings" remote="github" revision="sunflowerleaf" clone-depth="1" />
+  <project path="packages/apps/Settings" name="Night-Raids-Reborn/kscope_packages_apps_Settings" remote="github" revision="sunflowerleaf" clone-depth="1" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="kscope" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="kscope" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="kscope" />
@@ -158,7 +158,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="kscope" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="kscope" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="kscope" />
-  <project path="packages/modules/Connectivity" name="darknius09/packages_modules_Connectivity" remote="github" revision="twelve" clone-depth="1" />
+  <project path="packages/modules/Connectivity" name="Night-Raids-Reborn/packages_modules_Connectivity" remote="github" revision="twelve" clone-depth="1" />
 
   <!-- prebuilts -->
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="kscope" clone-depth="1" />
@@ -183,7 +183,7 @@
   <!-- vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="kscope" />
   <project path="vendor/gms" name="android_vendor_gms" remote="kscope-gitlab" clone-depth="1" />
-  <project path="vendor/kscope" name="darknius09/android_vendor_kscope" remote="github" revision="sunflowerleaf" clone-depth="1" />
+  <project path="vendor/kscope" name="Night-Raids-Reborn/android_vendor_kscope" remote="github" revision="sunflowerleaf" clone-depth="1" />
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="kscope" />
   <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="kscope" />
   <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="kscope" />
