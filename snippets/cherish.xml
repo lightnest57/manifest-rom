@@ -38,7 +38,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cherish" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="cherish" >
+  <project path="build/make" name="Night-Raids-Reborn/cherish_build" remote="github" revision="twelve-one" clone-depth="1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -75,7 +75,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cherish" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="cherish" />
+  <project path="frameworks/base" name="Night-Raids-Reborn/cherish_frameworks_base" remote="github" revision="twelve-one" clone-depth="1" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="cherish" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="cherish" />
   <project path="frameworks/native" name="android_frameworks_native" remote="cherish" />
@@ -129,7 +129,7 @@
   <project path="system/vold" name="android_system_vold" remote="cherish" />
 
   <!-- Vendor -->
-  <project path="vendor/cherish" name="android_vendor_cherish" remote="cherish" />
+  <project path="vendor/cherish" name="Night-Raids-Reborn/android_vendor_cherish" remote="github" revision="twelve-one" clone-depth="1" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="cherish" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="hungphan2001-gitlab" clone-depth="1" />
   <project path="vendor/OTA" name="OTA" remote="cherish-devices" />
