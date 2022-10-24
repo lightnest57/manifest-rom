@@ -838,8 +838,8 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" clone-depth="1" remote="github" revision="master" />
   
   <!-- Trees -->
-  <project path="device/xiaomi/juice" name="Night-Raids-Reborn/dt-juice" remote="github" revision="fluid" clone-depth="1" />
-  <project path="vendor/xiaomi/juice" name="Night-Raids-Reborn/vendor_xiaomi_juice" remote="github" revision="snow" clone-depth="1" />
+  <project path="device/xiaomi/juice" name="Night-Raids-Reborn/devise" remote="github" revision="fluid" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="darknius20/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
   <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
 
   <include name="snippets/remove.xml" />
