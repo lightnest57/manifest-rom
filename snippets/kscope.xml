@@ -213,10 +213,6 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="kscope" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="kscope" />
   <project path="vendor/support" name="android_vendor_support" remote="kscope" />
-  
-  <!-- Trees -->
-  <project path="device/xiaomi/juice" name="Night-Raids-Reborn/devise" remote="github" revision="kscope" clone-depth="1" />
-  <project path="vendor/xiaomi/juice" name="darknius20/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
-  <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="master" clone-depth="1" />
+ 
 
 </manifest>
