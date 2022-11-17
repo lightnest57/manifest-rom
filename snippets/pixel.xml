@@ -98,7 +98,7 @@
 
   <!-- General repos -->
   <project path="art" name="xdroid-CAF/xd_art" remote="github" revision="eleven" clone-depth="1" />
-  <project path="bionic" name="xdroid-CAF/xd_bionic" remote="github" revision="eleven" clone-depth="1" />
+  <project path="bionic" name="bionic" remote="blaster" />
   <project path="build/make" name="darknius09/build-pb" remote="github" revision="eleven" clone-depth="1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
