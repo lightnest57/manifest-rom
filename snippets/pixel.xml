@@ -115,7 +115,7 @@
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="blaster" />
+  <project path="device/custom/sepolicy" name="darknius09/device_pb_sepolicy" remote="github" revision="eleven" clone-depth="1" />
   <project path="manifest" name="manifest" remote="blaster" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
   <project path="vendor/aosp" name="darknius09/vendor_pb" remote="github" revision="eleven" clone-depth="1" />
