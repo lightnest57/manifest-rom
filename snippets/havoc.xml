@@ -17,7 +17,7 @@
            revision="eleven" />
 
   <!-- General -->
-  <project path="art" name="xdroid-CAF/xd_art" revision="eleven" remote="github"/>
+  <project path="art" name="xdroid-CAF/xd_art" revision="eleven" remote="github" clone-depth="1" />
   <project path="bionic" name="android_bionic" remote="havoc" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="havoc" />
   <project path="development" name="android_development" remote="havoc" />
