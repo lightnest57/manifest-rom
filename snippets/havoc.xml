@@ -17,6 +17,7 @@
            revision="eleven" />
 
   <!-- General -->
+  <project path="system/apex" name="Night-Raids-Reborn/clo_system_apex" remote="github" revision="main" clone-depth="1" />
   <project path="art" name="xdroid-CAF/xd_art" revision="eleven" remote="github" clone-depth="1" />
   <project path="bionic" name="android_bionic" remote="havoc" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="havoc" />
