@@ -156,4 +156,5 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/system/apex" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
 </manifest>
