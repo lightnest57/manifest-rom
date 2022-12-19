@@ -168,6 +168,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="dot" />
   <project path="packages/apps/Customizations" name="Night-Raids-Reborn/dot_packages_apps_Customizations" remote="github" revision="dot11" clone-depth="1" />
   <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="github" revision="r11.1" />
+  <project path="packages/apps/SoftAPManager" name="Night-Raids-Reborn/android_packages_apps_SoftAPManager" remote="github" revision="eleven" clone-depth="1" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="dot" />
