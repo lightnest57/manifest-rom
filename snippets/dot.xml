@@ -26,6 +26,9 @@
           fetch="https://gitlab.com/dotosofficial"
           revision="refs/heads/dot11" />
 
+<remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
   <project path="system/apex" name="Night-Raids-Reborn/clo_system_apex" remote="github" revision="LA.QSSI.11.0.r1-17400-qssi.0" clone-depth="1" />
   <project path="art" name="xdroid-CAF/xd_art" remote="github" revision="eleven" clone-depth="1" />
   <project path="manifest" name="manifest" remote="dot" />
