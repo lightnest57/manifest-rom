@@ -99,7 +99,7 @@
   <project path="system/vold" name="android_system_vold" remote="ros" />
 
   <!-- RevengeOS vendor -->
-  <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros57" />
+  <project path="vendor/revengeos" name="android_vendor_revengeos" remote="night" />
   <project path="vendor/revengeui" name="android_vendor_revengeui" remote="ros" />
   <project path="vendor/lawnchair" name="Night-Raids-Reborn/android_vendor_lawnchair" remote="github" revision="twelve" clone-depth="1" />
   <project path="vendor/gapps" name="BlissRoms/android_vendor_gapps" remote="gitlab" revision="r" clone-depth="1" />
