@@ -17,6 +17,10 @@
            fetch="https://github.com/RevengeOS-Devices"
            revision="r11.0" />
 
+  <remote  name="aex"
+           fetch="https://github.com/AospExtended"
+           revision="11.x" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -55,6 +59,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="ros" />
   <project path="external/RevengeUI-lib" name="RevengeUI-lib" remote="ros" revision="master" />
   <project path="external/SimpleWeather" name="SimpleWeather" remote="ros" revision="master" />
+  <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="aex" />
   
   <!-- device -->
   <project path="device/qcom/sepolicy" name="ros_device_qcom_sepolicy" remote="night" />
